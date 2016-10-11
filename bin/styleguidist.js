@@ -7,7 +7,7 @@ const components = process.argv[3];
 
 const guide = styleguidist({
   components,
-  updateWebpackConfig() {
+  updateWebpackConfig(webpackConfig) {
     const sourceDir = path.resolve(__dirname, 'src');
     const craConfig = require('react-scripts/config/webpack.config.dev');
     if(exists('./src/index.css')) {
