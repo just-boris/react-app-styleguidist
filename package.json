@@ -1,0 +1,17 @@
+{
+  "name": "react-app-styleguidist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "just-boris <just-boris@hotmail.com>",
+  "license": "MIT",
+  "bin": {
+    "styleguidist": "./bin/styleguidist.js"
+  },
+  "peerDependencies": {
+    "react-scripts": "^0.4.0"
+  },
+  "dependencies": {
+    "react-styleguidist": "^4.0.1",
+    "webpack": "^1.13.2"
+  }
+}
