@@ -13,7 +13,7 @@ If you already have project built with [create-react-app], you need to do the fo
 "styleguide": "styleguidist server ./src/App.js"
 ```
 
-Then run `npm run styleguide` and you will see styleguide with your `App` component. If you have different components structure, you should update this section accordint to your preferences, for example `./src/components/*.js`. It will build styleguide for all files that you have in your `components` folder.
+Then run `npm run styleguide` and you will see styleguide with your `App` component. If you have different components structure, you should update this section according to your preferences, for example `./src/components/*.js`. It will build styleguide for all files that you have in your `components` folder.
 
 ## Customize styleguide
 
