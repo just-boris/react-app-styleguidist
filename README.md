@@ -21,6 +21,15 @@ Also, there is an [`example`](example) folder, that contains sample project with
 
 See [react-styleguidist] main documentation for more details.
 
+## Ejecting
+
+For some more advanced features you might need to change some configuration options. This package supposed to be zero-configuration tool (except components paths), so you need to use react-styleguidist directly. To do this, you can run `eject` command and follow the instructions in the terminal:
+
+```
+./node_modules/.bin/styleguidist eject
+```
+This command will add `styleguide.config.js` with all previously used options, but now they are belong to yor project, so you can edit them.
+
 
 [react-styleguidist]: https://github.com/sapegin/react-styleguidist
 [create-react-app]:https://github.com/facebookincubator/create-react-app
