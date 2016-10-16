@@ -9,7 +9,8 @@ const title = require(path.resolve('package.json')).name;
 
 const guide = styleguidist({
   title: title + ' – Styleguide',
-  components,
+  components: components || './src/App.js',
+  resolver: require('react-docgen').resolver.findAllExportedComponentDefinitions,
   updateWebpackConfig(webpackConfig) {
     const sourceDir = path.resolve(__dirname, 'src');
     const craConfig = require('react-scripts/config/webpack.config.dev');
