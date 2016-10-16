@@ -15,6 +15,8 @@ If you already have project built with [create-react-app], you need to do the fo
 
 Then run `npm run styleguide` and you will see styleguide with your `App` component. If you have different components structure, you should update this section according to your preferences, for example `./src/components/*.js`. It will build styleguide for all files that you have in your `components` folder.
 
+Also, there is an [`example`](example) folder, that contains sample project with all necessary setup.
+
 ## Customize styleguide
 
 See [react-styleguidist] main documentation for more details.
