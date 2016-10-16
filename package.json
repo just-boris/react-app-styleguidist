@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "react-styleguidist": "^4.0.1",
+    "postcss-loader": "0.13.0",
     "webpack": "^1.13.2"
   }
 }
