@@ -1,3 +1,5 @@
+:warning: *Do not use this!* Since v 5.0, react-styleguidist itself works with create-react-app just well.
+
 # React-app-styleguidist
 
 [react-styleguidist] integration for [create-react-app]
